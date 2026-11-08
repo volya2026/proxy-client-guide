@@ -19,7 +19,7 @@
 | 客户端 | 官方下载 | 中文教程 |
 |---|---|---|
 | v2rayNG | [GitHub Releases](https://github.com/2dust/v2rayNG/releases) | [V2RayNG 从入门到精通](https://tuijianvpn.com/1579) |
-| Clash Meta for Android | [GitHub Releases](https://github.com/MetaCubeX/ClashMetaForAndroid/releases) | 整理中 |
+| Clash Meta for Android | [GitHub Releases](https://github.com/MetaCubeX/ClashMetaForAndroid/releases) | [Clash Meta for Android 下载与使用教程](https://volya2026.github.io/proxy-client-guide/clash-meta-for-android/) |
 | FlClash | [GitHub Releases](https://github.com/chen08209/FlClash/releases) | [FlClash 下载与使用教程](https://volya2026.github.io/proxy-client-guide/flclash/) |
 
 ## iOS
