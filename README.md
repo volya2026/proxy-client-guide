@@ -10,7 +10,7 @@
 |---|---|---|---|
 | Clash Verge Rev | mihomo | [GitHub Releases](https://github.com/clash-verge-rev/clash-verge-rev/releases) | [Clash Verge Rev 下载与使用教程](https://volya2026.github.io/proxy-client-guide/clash-verge-rev/) |
 | v2rayN | Xray / sing-box | [GitHub Releases](https://github.com/2dust/v2rayN/releases) | [v2rayN 从入门到精通](https://tuijianvpn.com/1467) |
-| FlClash | mihomo | [GitHub Releases](https://github.com/chen08209/FlClash/releases) | 整理中 |
+| FlClash | mihomo | [GitHub Releases](https://github.com/chen08209/FlClash/releases) | [FlClash 下载与使用教程](https://volya2026.github.io/proxy-client-guide/flclash/) |
 | Hiddify | sing-box | [GitHub Releases](https://github.com/hiddify/hiddify-app/releases) | 整理中 |
 | Clash for Windows（已停更） | Clash | 原仓库已删除，不建议新装 | [旧版教程](https://tuijianvpn.com/1624) |
 
@@ -20,7 +20,7 @@
 |---|---|---|
 | v2rayNG | [GitHub Releases](https://github.com/2dust/v2rayNG/releases) | [V2RayNG 从入门到精通](https://tuijianvpn.com/1579) |
 | Clash Meta for Android | [GitHub Releases](https://github.com/MetaCubeX/ClashMetaForAndroid/releases) | 整理中 |
-| FlClash | [GitHub Releases](https://github.com/chen08209/FlClash/releases) | 整理中 |
+| FlClash | [GitHub Releases](https://github.com/chen08209/FlClash/releases) | [FlClash 下载与使用教程](https://volya2026.github.io/proxy-client-guide/flclash/) |
 
 ## iOS
 
