@@ -1,5 +1,11 @@
-title: 代理客户端下载与配置教程索引
+title: 代理客户端教程
 description: 主流代理客户端的官方下载地址与中文配置教程，按设备分类，持续更新。
 lang: zh-CN
 plugins:
   - jekyll-sitemap
+defaults:
+  - scope:
+      path: "README.md"
+    values:
+      title: "Clash 客户端下载大全（2026）：Clash Verge Rev、FlClash、Clash Party 等官方下载与中文教程"
+      description: "整理 Clash 及主流代理客户端的官方下载地址和中文教程，按 Windows、macOS、Linux、安卓、iOS 分类，并说明不同设备该选哪个客户端。"

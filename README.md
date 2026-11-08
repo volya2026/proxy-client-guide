@@ -1,8 +1,19 @@
-# 代理客户端下载与配置教程索引
+# Clash 客户端下载大全
 
-整理主流代理客户端的官方下载地址和中文配置教程，按设备分类，持续更新。
+整理 Clash 及主流代理客户端的官方下载地址和中文教程，按设备分类，持续更新。
+
+最后更新：2026年11月8日
 
 > 只收录官方发布渠道，请勿从来路不明的网盘下载客户端。
+
+## 怎么选
+
+- 只在电脑上用：选 Clash Verge Rev（用户最多，资料好找）或 Clash Party（还提供 Windows 7 和 macOS 10.15 的安装包）。
+- 手机和电脑想用同一个软件：选 FlClash，安卓、Windows、macOS、Linux 都支持。
+- 安卓手机：Clash Meta for Android 或 FlClash；如果手里是 V2Ray 订阅，选 v2rayNG。
+- 电脑上用 V2Ray 订阅：选 v2rayN。
+- iPhone / iPad：选 Shadowrocket（小火箭），需要非中国区 Apple ID。
+- Clash for Windows 已经停止更新，不建议新装。
 
 ## Windows / macOS / Linux
 
