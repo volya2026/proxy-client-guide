@@ -6,11 +6,11 @@ permalink: /clash-meta-for-android/
 
 # Clash Meta for Android 下载与使用教程
 
-文章最后更新：2026年11月8日（版本信息核对于同日，当前正式版为 v2.11.36）
+文章最后更新：2026年11月9日（版本信息核对于2026年11月8日，当前正式版为 v2.11.36）
 
 Clash Meta for Android（简称 CMFA）是 Mihomo（Clash Meta）内核的安卓图形客户端，由 MetaCubeX 团队维护，开源免费。官方下载渠道只有两个：[GitHub Releases](https://github.com/MetaCubeX/ClashMetaForAndroid/releases) 和 [F-Droid](https://f-droid.org/packages/com.github.metacubex.clash.meta/)。
 
-> 本页是非官方中文教程，内容根据 [CMFA 官方仓库](https://github.com/MetaCubeX/ClashMetaForAndroid) 的说明和发布页整理。界面文字以软件简体中文版为准，更新后可能略有变化。电脑端用户可以看 [Clash Verge Rev 下载与使用教程](https://volya2026.github.io/proxy-client-guide/clash-verge-rev/)。
+> 本页是非官方中文教程，内容根据 [CMFA 官方仓库](https://github.com/MetaCubeX/ClashMetaForAndroid) 的说明和发布页整理。界面文字以软件简体中文版为准，更新后可能略有变化。文中截图来自 Android 7.0 环境下的 CMFA v2.11.36，使用的是演示订阅，节点名称和延迟数字仅作示意，链接已打码。电脑端用户可以看 [Clash Verge Rev 下载与使用教程](https://volya2026.github.io/proxy-client-guide/clash-verge-rev/)。
 
 ## 先认准官方版本
 
@@ -49,31 +49,55 @@ Clash Meta for Android（简称 CMFA）是 Mihomo（Clash Meta）内核的安卓
 CMFA 本身不提供节点，需要导入你的 Clash 订阅链接才能使用。
 
 1. 在订阅服务的用户中心复制 Clash 订阅链接。
-2. 在 CMFA 首页点击“配置”，再点“新建”（加号）按钮。
-3. 选择“从 URL 导入”。
-4. 填写：
+2. 在 CMFA 首页点击“配置”，再点右上角的加号。
+
+![CMFA 首页，点击配置]({{ '/assets/clash-meta-for-android/clash-meta-for-android-01-home.png' | relative_url }})
+
+3. 在“创建配置”里选择“URL（从 URL 导入）”。
+
+![创建配置页面，选择从 URL 导入]({{ '/assets/clash-meta-for-android/clash-meta-for-android-02-new-profile.png' | relative_url }})
+
+4. 依次点每一项，在弹出的输入框里填写后点“确认”：
    - 名称：随便填，方便自己识别。
    - URL：粘贴订阅链接。
+   - Age 私钥：标着“可选”，普通订阅留空即可。
    - 自动更新：建议填 1440（分钟），也就是每天更新一次。最少 15 分钟，不填就不自动更新。
-5. 点右上角的“保存”图标，等待下载和校验完成。
-6. 回到配置列表，点选刚导入的配置。回到首页，“配置”一栏显示“（你的配置名） 已激活”就可以了。
+5. 点右上角的“保存”图标（软盘形状），等“正在校验”提示消失。
 
-另外两种导入方式：“从文件导入”适合手里只有 `.yaml` 配置文件的情况；如果服务商后台有“一键导入 Clash”按钮，在装好 CMFA 的手机上点它就能直接导入。CMFA 支持 `clash://` 和 `clashmeta://` 开头的导入链接。
+![填写订阅链接和自动更新间隔后保存]({{ '/assets/clash-meta-for-android/clash-meta-for-android-03-import-url.png' | relative_url }})
+
+6. 回到配置列表，点配置卡片左侧的圆圈选中它。卡片上能看到已用流量、总流量和到期时间。
+
+![在配置列表中选中刚导入的订阅]({{ '/assets/clash-meta-for-android/clash-meta-for-android-04-select-profile.png' | relative_url }})
+
+7. 按返回键回到首页，“配置”一栏显示“（你的配置名） 已激活”就可以了。
+
+其他导入方式：“从文件导入”适合手里只有 `.yaml` 配置文件的情况；“从二维码导入”可以扫服务商后台的订阅二维码；如果服务商后台有“一键导入 Clash”按钮，在装好 CMFA 的手机上点它就能直接导入。CMFA 支持 `clash://` 和 `clashmeta://` 开头的导入链接。
 
 还没有 Clash 订阅的话，可以参考这份 [Clash 节点购买推荐](https://tuijianvpn.com/4191)，先选一家支持 Clash 订阅的服务，建议从月付开始试用。
 
 ## 启动连接
 
 1. 回到首页，点“点此启动”。
-2. 第一次启动时，系统会弹出 VPN 连接请求，点“确定”允许。
-3. 首页状态变成“运行中”，并显示已转发的流量，就说明已经启动了。
+2. 第一次启动时，系统会弹出“网络连接请求”，点“确定”允许。不同安卓版本的弹窗文字略有差别。
+
+![系统弹出网络连接请求，点确定]({{ '/assets/clash-meta-for-android/clash-meta-for-android-05-vpn-request.png' | relative_url }})
+
+3. 首页状态变成“运行中”，并显示已转发的流量，就说明已经启动了。启动后首页会多出“代理”一栏。
+
+![启动后首页显示运行中和代理入口]({{ '/assets/clash-meta-for-android/clash-meta-for-android-06-running.png' | relative_url }})
 
 ## 选择节点与模式
 
-在首页点击“代理”，可以看到订阅里的各个策略组和节点。
+在首页点击“代理”（启动后才会出现），顶部标签是订阅里的各个策略组，下面是组里的节点。
 
-- 点闪电图标做一次“延迟测试”，然后在节点选择组里点一个延迟正常的节点。
-- 右上角菜单的“模式”里可以切换规则模式、全局模式和直连模式。这里切换的模式只在本次运行中有效。
+- 先切到“节点选择”这类手动选择的组，点右下角的圆形闪电按钮做一次延迟测试，节点右侧会显示延迟数字。然后点一个延迟正常的节点，选中后卡片会变成深色。
+
+![代理页面：延迟测试并选择节点]({{ '/assets/clash-meta-for-android/clash-meta-for-android-07-delay-test.png' | relative_url }})
+
+- 右上角三点菜单 → “模式”里有不修改、直连模式、全局模式和规则模式。“不修改”就是沿用订阅里设定的模式。这里切换的模式只在本次运行中有效。
+
+![右上角菜单里切换代理模式]({{ '/assets/clash-meta-for-android/clash-meta-for-android-08-mode.png' | relative_url }})
 
 | 模式 | 流量怎么走 | 适合场景 |
 |--|--|--|
