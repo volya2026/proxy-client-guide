@@ -51,11 +51,11 @@ CMFA 本身不提供节点，需要导入你的 Clash 订阅链接才能使用�
 1. 在订阅服务的用户中心复制 Clash 订阅链接。
 2. 在 CMFA 首页点击“配置”，再点右上角的加号。
 
-![CMFA 首页，点击配置]({{ '/assets/clash-meta-for-android/clash-meta-for-android-01-home.png' | relative_url }})
+![CMFA 首页，点击配置]({{ '/assets/clash-meta-for-android/clash-meta-for-android-01-home.png' | relative_url }}){: width="300"}
 
 3. 在“创建配置”里选择“URL（从 URL 导入）”。
 
-![创建配置页面，选择从 URL 导入]({{ '/assets/clash-meta-for-android/clash-meta-for-android-02-new-profile.png' | relative_url }})
+![创建配置页面，选择从 URL 导入]({{ '/assets/clash-meta-for-android/clash-meta-for-android-02-new-profile.png' | relative_url }}){: width="300"}
 
 4. 依次点每一项，在弹出的输入框里填写后点“确认”：
    - 名称：随便填，方便自己识别。
@@ -64,11 +64,11 @@ CMFA 本身不提供节点，需要导入你的 Clash 订阅链接才能使用�
    - 自动更新：建议填 1440（分钟），也就是每天更新一次。最少 15 分钟，不填就不自动更新。
 5. 点右上角的“保存”图标（软盘形状），等“正在校验”提示消失。
 
-![填写订阅链接和自动更新间隔后保存]({{ '/assets/clash-meta-for-android/clash-meta-for-android-03-import-url.png' | relative_url }})
+![填写订阅链接和自动更新间隔后保存]({{ '/assets/clash-meta-for-android/clash-meta-for-android-03-import-url.png' | relative_url }}){: width="300"}
 
 6. 回到配置列表，点配置卡片左侧的圆圈选中它。卡片上能看到已用流量、总流量和到期时间。
 
-![在配置列表中选中刚导入的订阅]({{ '/assets/clash-meta-for-android/clash-meta-for-android-04-select-profile.png' | relative_url }})
+![在配置列表中选中刚导入的订阅]({{ '/assets/clash-meta-for-android/clash-meta-for-android-04-select-profile.png' | relative_url }}){: width="300"}
 
 7. 按返回键回到首页，“配置”一栏显示“（你的配置名） 已激活”就可以了。
 
@@ -81,11 +81,11 @@ CMFA 本身不提供节点，需要导入你的 Clash 订阅链接才能使用�
 1. 回到首页，点“点此启动”。
 2. 第一次启动时，系统会弹出“网络连接请求”，点“确定”允许。不同安卓版本的弹窗文字略有差别。
 
-![系统弹出网络连接请求，点确定]({{ '/assets/clash-meta-for-android/clash-meta-for-android-05-vpn-request.png' | relative_url }})
+![系统弹出网络连接请求，点确定]({{ '/assets/clash-meta-for-android/clash-meta-for-android-05-vpn-request.png' | relative_url }}){: width="300"}
 
 3. 首页状态变成“运行中”，并显示已转发的流量，就说明已经启动了。启动后首页会多出“代理”一栏。
 
-![启动后首页显示运行中和代理入口]({{ '/assets/clash-meta-for-android/clash-meta-for-android-06-running.png' | relative_url }})
+![启动后首页显示运行中和代理入口]({{ '/assets/clash-meta-for-android/clash-meta-for-android-06-running.png' | relative_url }}){: width="300"}
 
 ## 选择节点与模式
 
@@ -93,11 +93,11 @@ CMFA 本身不提供节点，需要导入你的 Clash 订阅链接才能使用�
 
 - 先切到“节点选择”这类手动选择的组，点右下角的圆形闪电按钮做一次延迟测试，节点右侧会显示延迟数字。然后点一个延迟正常的节点，选中后卡片会变成深色。
 
-![代理页面：延迟测试并选择节点]({{ '/assets/clash-meta-for-android/clash-meta-for-android-07-delay-test.png' | relative_url }})
+![代理页面：延迟测试并选择节点]({{ '/assets/clash-meta-for-android/clash-meta-for-android-07-delay-test.png' | relative_url }}){: width="300"}
 
 - 右上角三点菜单 → “模式”里有不修改、直连模式、全局模式和规则模式。“不修改”就是沿用订阅里设定的模式。这里切换的模式只在本次运行中有效。
 
-![右上角菜单里切换代理模式]({{ '/assets/clash-meta-for-android/clash-meta-for-android-08-mode.png' | relative_url }})
+![右上角菜单里切换代理模式]({{ '/assets/clash-meta-for-android/clash-meta-for-android-08-mode.png' | relative_url }}){: width="300"}
 
 | 模式 | 流量怎么走 | 适合场景 |
 |--|--|--|
