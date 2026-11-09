@@ -6,7 +6,7 @@ permalink: /clash-verge-rev/
 
 # Clash Verge Rev 下载与使用教程
 
-文章最后更新：2026年11月7日（版本信息核对于同日，当前正式版为 v2.5.10）
+文章最后更新：2026年11月9日（版本信息核对于同日，当前正式版为 v2.5.10）
 
 Clash Verge Rev 是一款基于 Mihomo（Clash Meta）内核的开源桌面代理客户端，支持 Windows、macOS 和 Linux。它只通过官方 GitHub Releases 发布，下载请认准 [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev/releases)，其他自称“官网”的下载站都不是官方渠道。
 
@@ -91,7 +91,12 @@ Clash Verge Rev 本身不提供节点，需要导入你的订阅链接才能使�
 1. 在订阅服务的用户中心复制 Clash 订阅链接。
 2. 打开 Clash Verge Rev，点击左侧“订阅”。
 3. 把链接粘贴到顶部的“订阅文件链接”输入框，点击“导入”。
+
+![Clash Verge Rev 订阅页面：点击左侧“订阅”，把订阅链接粘贴到输入框，再点“导入”]({{ '/assets/clash-verge-rev/clash-verge-rev-01-import.png' | relative_url }})
+
 4. 导入成功后，订阅会以卡片形式出现，点击这张卡片启用它。
+
+![Clash Verge Rev 导入成功后显示的订阅卡片，卡片上有已用流量和到期时间]({{ '/assets/clash-verge-rev/clash-verge-rev-02-profile.png' | relative_url }})
 
 链接必须以 `http://` 或 `https://` 开头。导入失败时，可以看下文的常见问题。
 
@@ -100,6 +105,10 @@ Clash Verge Rev 本身不提供节点，需要导入你的订阅链接才能使�
 ## 选择节点与代理模式
 
 点击左侧“代理”，可以看到订阅里的节点分组。点击“延迟测试”可以测出各节点的延迟，然后手动选择一个节点。
+
+![Clash Verge Rev 代理页面：点击“延迟测试”按钮，各节点右侧会显示延迟（毫秒），顶部可以切换规则、全局、直连三种模式]({{ '/assets/clash-verge-rev/clash-verge-rev-03-delay-test.png' | relative_url }})
+
+![在 Clash Verge Rev 节点列表里点击一个节点，选中的节点会变成高亮]({{ '/assets/clash-verge-rev/clash-verge-rev-04-select-node.png' | relative_url }})
 
 页面顶部有三种代理模式：
 
@@ -115,6 +124,8 @@ Clash Verge Rev 本身不提供节点，需要导入你的订阅链接才能使�
 
 选好节点后，还要打开“系统代理”或“虚拟网卡模式”（TUN 模式）其中一个，流量才会真正交给 Clash Verge Rev 处理。两个开关在首页和“设置”里都能找到。
 
+![Clash Verge Rev 首页：当前节点、系统代理开关和代理模式]({{ '/assets/clash-verge-rev/clash-verge-rev-05-system-proxy.png' | relative_url }})
+
 | 对比项 | 系统代理 | TUN 模式（虚拟网卡模式） |
 |--|--|--|
 | 原理 | 修改系统的代理设置，应用自己决定是否遵守 | 创建一张虚拟网卡，接管系统所有流量 |
@@ -126,9 +137,11 @@ Clash Verge Rev 本身不提供节点，需要导入你的订阅链接才能使�
 
 开启 TUN 的步骤：
 
-1. 进入“设置”，在虚拟网卡模式旁点击“安装服务”，按提示允许管理员授权。
-2. 首页显示“服务模式”后，打开“虚拟网卡模式”开关。
+1. 进入“设置”，打开“虚拟网卡模式”开关。
+2. 第一次打开时会弹出“TUN 模式需要系统服务”的提示，点击“安装服务”，再按系统提示允许管理员授权。服务装好后，TUN 模式会自动开启。
 3. 如果不想安装服务，也可以直接以管理员身份运行 Clash Verge Rev 来使用 TUN。
+
+![Clash Verge Rev 打开虚拟网卡模式时弹出的“TUN 模式需要系统服务”提示，点击“安装服务”即可]({{ '/assets/clash-verge-rev/clash-verge-rev-06-tun.png' | relative_url }})
 
 ## 怎么确认已经连上
 
